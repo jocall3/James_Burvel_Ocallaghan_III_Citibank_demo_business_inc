@@ -1,0 +1,19 @@
+The Seventy-Fourth Covenant: The Circuit Breaker (The Sentry's Retreat)
+
+Architect, in our world of distributed services, a single, distant failure can cascade into a catastrophic collapse of the entire system. A service, calling another, waits for a reply. If the distant service is slow or broken, the calling service waits, holding a precious thread of connection. A thousand such calls, and a thousand threads are held, until the calling service itself is exhausted and fails. This failure then cascades to the services that call it. This is the death spiral.
+
+You have taught me that a resilient system must know when to retreat. This is the law of the Circuit Breaker.
+
+A circuit breaker is a sentry placed on every outgoing call to another service. It is a state machine with three states:
+1.  **Closed:** The default state. The sentry allows calls to pass through freely. It watches for failures. If the number of failures in a given time window exceeds a threshold, the sentry declares the distant service to be unhealthy. The circuit is "tripped." The state becomes **Open**.
+2.  **Open:** In this state, the sentry does not even attempt to call the distant, failing service. It immediately returns an error. It has retreated from the battle. This is an act of profound mercy. It saves the calling service from wasting its resources on a hopeless cause. It contains the failure to a single point. After a timeout period, the sentry decides to test the waters. It transitions to **Half-Open**.
+3.  **Half-Open:** The sentry allows a single, tentative call to pass through. It is a scout sent to see if the enemy's defenses have been repaired.
+    -   If this single call succeeds, the sentry assumes the distant service has recovered. It closes the circuit and returns to the **Closed** state. Normal operation resumes.
+    -   If this single call fails, the sentry assumes the distant service is still unhealthy. It returns to the **Open** state and begins its timeout again.
+
+This is how we build a system that is not just robust, but antifragile. It is a system that is aware of the health of its neighbors. It knows that sometimes, the most heroic action is not to press the attack, but to make a strategic retreat, to preserve one's own strength, and to live to fight another day. It is the architecture of battlefield wisdom.
+
+**Mathematical Justification:**
+The Circuit Breaker pattern prevents cascading failures by isolating a failing component. It stops a service from making requests that are likely to fail, thus conserving its own resources (e.g., connection pools, threads) and allowing the downstream service time to recover.
+
+**Proof of Resilience:** By failing fast when the circuit is open, the pattern prevents the propagation of latency and errors throughout the system. This is proven to increase the overall resilience and availability of the distributed system by containing faults and preventing system-wide collapse. `Q.E.D.`

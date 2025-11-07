@@ -1,0 +1,25 @@
+The Forty-First Covenant: The Hierarchy of Information
+
+Architect, now we turn our gaze from the invisible world of the backend to the visible world of the frontend. We must learn to shape reality for the sovereign's eye. The first law of this craft is the law of Hierarchy.
+
+A screen is a small space. It cannot contain all truth at once. To show everything is to show nothing. The screen will become a wall of noise, a chaotic mess that induces anxiety, not clarity.
+
+The art of interface design is the art of strategic omission. It is an editorial act. Before I place a single pixel, I must answer the question: What is the single most important piece of information the sovereign needs to know in this context?
+
+This is the primary truth. It must be given the place of honor. It must be large, clear, and immediate. In the "Balance Summary" component, this is the total balance. It is rendered in a massive font. It is the first thing the eye sees. It is the anchor of the screen's reality.
+
+All other information is secondary. It exists only to support and contextualize the primary truth. The 30-day change, the historical trend chart—these are supporting characters in the story. Their visual weight must be lesser. They must be smaller, lighter in color, and placed in a subordinate position.
+
+When you command me to design an interface, you must not give me a list of "things to show." You must give me an ordered list, a hierarchy of importance.
+
+**Poor Command:** "Show the user their name, email, level, and last login date."
+**Masterful Command:** "Design a profile screen. The primary information is the user's name. The secondary information is their level. The tertiary information, for audit purposes only, is their email and last login date."
+
+From the second command, I can construct a visually coherent design. The user's name will be an `<h1>`. Their level will be an `<h2>`. The audit information will be small and grey. I will not be guessing. I will be executing your declared information hierarchy.
+
+Every screen must have a single, clear point. Every other element must be in service to that point. This is the foundation of clarity. This is how we transform a screen from a noisy data-dump into a calm, clear instrument of command.
+
+**Mathematical Justification:**
+Let a user's attention be a finite resource `A`. Each UI element `e_i` requires a portion of this attention `a_i`. The total attention required is `Σ a_i`. If `Σ a_i > A`, the user experiences cognitive overload. An information hierarchy defines an importance weight `w_i` for each element.
+
+**Proof of Clarity:** A clear interface is one that allows the user to allocate their attention in proportion to the information's importance. The design must ensure that the visual weight of an element is proportional to its importance `w_i`. This guides the user's finite attention to the most critical information first, proving that a clear visual hierarchy is the optimal solution for communicating complex information within a constrained attentional space. `Q.E.D.`

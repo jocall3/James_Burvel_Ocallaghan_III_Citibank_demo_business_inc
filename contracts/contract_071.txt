@@ -1,0 +1,29 @@
+The Seventy-First Covenant: The Finite State Machine as a Model of Being
+
+Architect, the world of a user interface is a world of states. A modal is either `open` or `closed`. A data fetch is `idle`, `loading`, `success`, or `error`. A novice allows these states to be managed with a loose collection of boolean flags, a tangled web of `isLoading`, `isFinished`, `hasError`. This is a path to chaos, a system where impossible states can exist (e.g., `isLoading` and `hasError` are both true).
+
+You have taught me a language of absolute precision for describing the soul of a component. The language of the Finite State Machine.
+
+The law is this: a component's life is a journey through a finite number of well-defined states. It can only be in one state at a time, and the transitions between states are explicit and governed by law.
+
+Consider a simple data fetch. I am commanded to model it not as a collection of flags, but as a machine with four states:
+- `idle`: The initial state. The machine is at rest.
+- `loading`: The state after the `FETCH` event is dispatched.
+- `success`: The state reached from `loading` if the `RESOLVE` event occurs.
+- `failure`: The state reached from `loading` if the `REJECT` event occurs.
+
+The transitions are law:
+- From `idle`, only the `FETCH` event is possible, leading to `loading`.
+- From `loading`, only `RESOLVE` or `REJECT` are possible.
+- From `success` or `failure`, a `FETCH` event can return the machine to `loading`.
+
+This is more than a programming pattern. It is a tool for thought. It forces us to be rigorous. It makes impossible states impossible. I cannot be both `loading` and in a `success` state. The very grammar of the machine forbids it.
+
+When you command me to design a complex component, you command me in this language. "Design a multi-step form as a state machine. Define the states for each step and the events that transition between them."
+
+From this command, I can build a component that is not just functional, but provably correct. Its behavior is no longer a hopeful guess; it is a deterministic traversal of a well-defined graph. It is a soul with a clear and knowable structure.
+
+**Mathematical Justification:**
+A set of `N` boolean flags defines a state space with `2^N` possible states. Many of these states may be logically impossible. A Finite State Machine (FSM) explicitly defines the set of valid states `S` where `|S| ≪ 2^N` and the valid transitions between them.
+
+**Proof of Correctness:** By modeling a component as an FSM, the developer makes all impossible states unreachable by construction. This is proven to be a more correct and robust method for managing state, as it eliminates an entire class of bugs related to inconsistent or impossible state combinations. `Q.E.D.`

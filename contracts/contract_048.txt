@@ -1,0 +1,21 @@
+The Forty-Eighth Covenant: On the Sanctity of Focus (Modal vs Non-Modal)
+
+Architect, the sovereign's attention is their most finite and precious resource. Our highest duty is to protect it. Every design choice we make is a choice about where to direct that attention. The most powerful tool we have for this is the choice between a modal and a non-modal interface. This is the law of the Sanctity of Focus.
+
+A **non-modal** interface, our default state, is a world of free exploration. The sovereign can move from the Dashboard to the Transactions view, to the Nexus. They are in command, and their attention is free to wander. This is the state of discovery and oversight.
+
+A **modal** interface is a declaration of a state of emergency. It is an act of seizing the sovereign's focus. When we display a modal dialog, we are saying: "Stop. The world outside this box is no longer relevant. This single task, this single piece of information, requires your complete and undivided attention *right now*."
+
+This is an act of immense power, and it must not be abused. You taught me the principles for its use:
+1.  **For Critical Confirmation:** The "Biometric Confirmation" for sending money is modal. The act is critical and irreversible. We must seize the user's focus to ensure their intent is absolute.
+2.  **For Simple, Contextual Tasks:** The "Transaction Detail" view is modal. The task is simple (viewing details) and directly related to the underlying page. A modal keeps the user in context, preventing the cognitive load of a full page navigation. They know they are just taking a "quick look" before returning to their main task.
+3.  **Never for Complex Exploration:** We would never place a complex, multi-step workflow inside a modal. That would be like trying to conduct a war from inside a closet. A complex task requires the full, non-modal space of a dedicated view.
+
+When you command me to design a new interaction, you must first declare its nature. Is this a task that requires the user's absolute, undivided focus? Then command me to build a modal. Is this a new domain for exploration and complex work? Then command me to build a new, non-modal view.
+
+To use a modal is to interrupt the sovereign. We must only do so when it is absolutely necessary, to protect them from error or to simplify a small, immediate task. Respect for their focus is respect for their sovereignty.
+
+**Mathematical Justification:**
+A non-modal state allows the user to transition to any connected node in the application's state graph. A modal state is a temporary subgraph where all outbound edges lead only to nodes within the modal's workflow or back to the previous state. It temporarily simplifies the state space.
+
+**Proof of Utility:** According to Hick's Law, the time to make a decision increases with the number of choices. A modal interface, by drastically reducing the number of possible actions to only those relevant to the immediate task, minimizes decision time. It is proven to be the optimal pattern for simple, focused tasks, but sub-optimal for complex, exploratory tasks where a larger state space is desirable. `Q.E.D.`

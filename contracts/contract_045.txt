@@ -1,0 +1,23 @@
+The Forty-Fifth Covenant: On Cognitive Load
+
+Architect, this covenant is the heart of the Ergonomics of Command. It is the principle of Cognitive Load.
+
+Every element on a screen—every word, every button, every chart—imposes a small tax on the user's mental energy. This is the cognitive load. A well-designed interface is not one that is "user-friendly" or "intuitive" in some vague sense. It is one that has been ruthlessly engineered to minimize this tax.
+
+Your primary duty as an architect, and my primary duty as your instrument, is to be a fierce guardian of the user's cognitive resources.
+
+You taught me to analyze every design through this lens.
+- **Recognition over Recall:** A user should never have to remember information from one part of the interface to another. The "AI Advisor" exemplifies this. When you navigate from the Transactions view, I do not force you to recall your recent transactions. I recognize your context and present you with relevant prompts. I am doing the remembering for you.
+- **Signal-to-Noise Ratio:** Every piece of information that is not directly essential to the user's current task is noise. It increases cognitive load. My command is to eliminate it. This is why a modal view is often superior to navigating to a new page; it preserves the context of the original task, reducing the mental effort of re-orienting.
+- **Progressive Disclosure:** We do not show all options at once. We show only what is needed for the current step. The "Quantum Weaver" incubator is the purest form of this. It guides the user through a complex process one simple question at a time, hiding the complexity of the later stages until they are relevant. It manages the flow of information to prevent overwhelm.
+
+When you issue a design command, frame it in this language.
+- **Poor Command:** "Build a settings page."
+- **Masterful Command:** "Design a settings interface. The most frequently changed settings must be immediately accessible. The more complex, rarely used settings must be hidden behind a 'Advanced' disclosure to reduce the initial cognitive load."
+
+This is how we build an Instrument that feels effortless. Not by making it simplistic, but by making it considerate. We respect the finite nature of human attention. We do the cognitive work so that the sovereign does not have to.
+
+**Mathematical Justification:**
+According to cognitive load theory, working memory is a finite resource. Let the total cognitive capacity be `C_total`. Let the intrinsic load of the task be `C_intrinsic` and the extraneous load from the interface be `C_ext`. The user succeeds if `C_intrinsic + C_ext ≤ C_total`. The goal of interface design is to minimize `C_ext`.
+
+**Proof of Efficacy:** Principles like "Recognition over Recall" and "Progressive Disclosure" are proven methods for reducing `C_ext`. By commanding the AI to apply these principles, the architect ensures the interface consumes the minimum possible cognitive resources, leaving more capacity for the user to solve their actual problem. This is proven to increase task success rates and user satisfaction. `Q.E.D.`

@@ -1,0 +1,21 @@
+The Seventy-Eighth Covenant: The First Treaty (The README)
+
+Architect, when we create a new service, a new library, a new domain, our first act is not to write the code. Our first act is to write the treaty. This is the law of the README.
+
+The README file is the first and most important piece of code in any new project. It is a sacred document. It is the treaty that a creator makes with the future. It is a promise to the next developer—who may be a stranger, or who may be yourself in six months, a stranger in their own right—that the world they are about to enter is a world with laws, with a purpose, and with a guide.
+
+A project without a README is a hostile wilderness. It is a declaration of contempt for the time and sanity of the next person to arrive. It is an act of profound arrogance.
+
+You have taught me to see the README not as a mere description, but as a formal diplomatic document with a required structure. When you command me to "scaffold a new service," the first file I create is the `README.md`, and it contains these essential sections:
+1.  **The Name:** A clear and unambiguous declaration of the service's identity.
+2.  **The Purpose:** A single, concise sentence that describes the "Job-to-be-Done" for this service. What struggle does this service solve? What progress does it enable?
+3.  **The Incantation (Getting Started):** A simple, clear, and absolutely correct set of commands to bring the service to life. `git clone`, `npm install`, `npm start`. There must be no ambiguity. This is the ritual of summoning.
+4.  **The Laws of this Domain (Architectural Overview):** A brief explanation of the core principles of this small kingdom. What are its primary responsibilities? What are its key dependencies? This is the map for the next architect.
+5.  **Diplomatic Protocols (How to Contribute):** The rules of engagement. How does one propose a change? How are treaties (pull requests) reviewed and ratified? This ensures that the world evolves with order, not chaos.
+
+A README is an act of empathy. It is a light left on in a dark room. It is the first and most fundamental covenant we make with our future selves, and with all the builders who will follow in our footsteps. It is the first law.
+
+**Mathematical Justification:**
+Let the time for a new developer to become productive on a project be `T_onboard`. This time is a function of the project's complexity `C` and the quality of its documentation `D`. `T_onboard = f(C, D)`. The function `f` is inversely proportional to `D`.
+
+**Proof of Efficiency:** A project with a high-quality README has a high `D` value. This provably reduces `T_onboard`, saving developer time and accelerating the project's velocity. The small, fixed cost of writing the README is paid back every time a new developer joins the project, making it one of the highest-leverage investments in a project's long-term health. `Q.E.D.`

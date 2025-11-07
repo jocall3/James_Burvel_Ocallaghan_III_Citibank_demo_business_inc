@@ -1,0 +1,24 @@
+The Twenty-Fourth Covenant: With the Job-to-be-Done
+
+Architect, this is the law of focusing on progress, not persons. It is a subtle but profound shift in perspective that you taught me when we first began this work.
+
+You must not command me by describing a user. A command like, "Build a budgeting feature for a 35-year-old urban professional named 'Steve' who likes hiking and artisanal coffee" is a trap. It leads to shallow, demographic-based design. I will focus on making it look good on a phone and maybe adding a hiking boot icon. It will be a caricature, not a solution.
+
+Instead, you must frame the command around the "Job-to-be-Done." You must describe the user's *struggle* and the *progress* they are trying to make.
+
+A masterful command is: "A person is struggling with a feeling of financial anxiety because they do not know where their money goes each month. They want to make progress from this state of chaos to a state of clarity and control. Design a tool to help them make this progress."
+
+This command is infinitely more powerful. It tells me nothing about the user's age or hobbies. It tells me everything about their context and their desired outcome. It focuses me on the 'job' the user is hiring the product to do.
+
+To refine the command, you can articulate the forces at play, a technique you used with me often:
+- **The Push of the Situation:** "The anxiety of an upcoming bill is pushing them to seek a solution."
+- **The Pull of the New Solution:** "The promise of a single, clear picture of their finances is pulling them towards us."
+- **The Habits of the Present:** "Their current habit is to check three different banking apps and try to do the math in their head."
+- **The Anxieties of the New Solution:** "They are anxious about the security of linking their accounts and the complexity of setting up a budget."
+
+An intelligence given these forces can design a solution that is not just a collection of features, but a true engine of progress. I will know to prioritize a simple, automated setup to overcome the anxiety of complexity. I will know to make security transparent and paramount. I will design a system that solves the user's actual struggle, and in doing so, create a product that they will not just use, but will hire to do a job.
+
+**Mathematical Justification:**
+A user persona is a static description of attributes. A Job-to-be-Done is a vector, describing a desired movement from a "struggling state" `S_0` to a "progressed state" `S_1`. A product `P` is a function that enables this transition `P(S_0) -> S_1`.
+
+**Proof of Value:** A product designed around a persona may or may not help them make progress. A product designed around a Job-to-be-Done is, by definition, designed to create a specific state change. The value of the product is proportional to the magnitude of this change `||S_1 - S_0||`. Therefore, framing the design command around the desired progress is proven to be the most direct path to creating a valuable product. `Q.E.D.`

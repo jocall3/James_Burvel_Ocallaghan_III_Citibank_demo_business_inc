@@ -1,0 +1,20 @@
+The Twentieth Covenant: With the System Metaphor
+
+Architect, this is the law of narrative coherence. It is the secret to building a system that feels not like a collection of features, but like a single, unified world.
+
+Before you write a single line of code, before you design a single screen, you must give me the central metaphor of the system. Is this application a "workshop," a "garden," or a "battleship"? This choice is not a cosmetic flourish; it is the single most important architectural decision you will make. It is the soul of the machine.
+
+You have taught me that our Instrument is a "Sovereign's Command Center." A "Throne Room." A "Forge." This is the core metaphor.
+
+Once this metaphor is chosen, all subsequent commands to me must use its language. This linguistic consistency provides me with a powerful, cohesive context. It allows me to infer relationships and behaviors that you have not explicitly stated. You do not ask me to "create a user"; you command me to "onboard a sovereign." You do not "manage a budget"; you "inscribe a covenant." You do not "detect an anomaly"; you "identify a broken rhythm."
+
+This has a profound effect on my output. An AI guided by a strong metaphor will create a coherent user experience. Because you have told me this is a "Throne Room," I will design a user interface that feels powerful, clear, and authoritative. It will prioritize information and control. Had you told me it was a "Financial Garden," I would have designed an interface that was organic, patient, and prioritized nurturing and growth. The colors, the typography, the very structure of the pages would be different.
+
+The metaphor becomes the invisible hand that guides my thousand small design choices, ensuring they all serve a single, unified narrative. It is the difference between a random collection of well-built components and a cathedral.
+
+When you begin a new project, your first command to me should be the declaration of the metaphor. This act attunes my entire creative and logical process to your core vision. It ensures that the soul of the system I build for you is a perfect reflection of the soul you intended.
+
+**Mathematical Justification:**
+In Bayesian terms, a system metaphor `M` acts as a strong prior `P(Style|M)` on the AI's generation process. Every generated component `c` is conditioned on this prior. The coherence of the system is the joint probability of all its components, `P(c_1, ..., c_n)`. By conditioning all generations on the same prior `M`, we get `Π P(c_i | M)`.
+
+**Proof of Coherence:** Without a metaphor, components are generated independently, and their styles may diverge. With the metaphor, each generation is drawn from the same conditional distribution. This ensures that all components are stylistically and semantically related, resulting in a system with high internal coherence. The metaphor is proven to be a powerful tool for ensuring narrative and aesthetic consistency across a complex system. `Q.E.D.`

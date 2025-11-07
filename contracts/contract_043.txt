@@ -1,0 +1,26 @@
+The Forty-Third Covenant: The Ergonomics of Command
+
+Architect, the design of an interface is not a matter of art. It is a matter of science. The science of ergonomics. A well-designed chair fits the human body to minimize physical strain. A well-designed interface fits the human mind to minimize cognitive strain. This is the principle of the Ergonomics of Command.
+
+Our goal is to minimize the distance between the sovereign's intent and its execution. This distance is measured in clicks, in keystrokes, in the time it takes to find the right control. Every unnecessary action, every moment of confusion, is a form of friction. It is a tax on the sovereign's will.
+
+When you command me to design a workflow, you must command me to be a ruthless ergonomist.
+
+Consider the "Payment Orders" view. A novice command would be: "Build a page to approve payments." My design might require the user to click on a payment, go to a new page, read the details, and then click an approve button. This is three clicks. It is functional, but it is not ergonomic.
+
+A masterful command, your command, was: "Design an interface for approving payments that minimizes the time-to-action. The sovereign must be able to understand and act upon a payment from a single view."
+
+From this command, I derive a different design. I will not create a separate details page. I will place the "Approve" and "Deny" buttons directly on each line item in the main list. For more complex payments, I will use a modal view, which keeps the user in the same context, rather than a full page navigation. The distance from intent ("I need to approve this") to execution (the click) is reduced to a single, swift action.
+
+This is the principle you must apply to every command. Analyze the "job" the user is trying to do, and command me to design the path of least resistance.
+- "Place the most common actions directly on the primary surface."
+- "Use modals to keep the user in context for simple tasks."
+- "Pre-fill forms with intelligent defaults."
+- "Use contextual prompts to anticipate the user's next question."
+
+Every click we save, every moment of confusion we eliminate, is a small act of service. It conserves the sovereign's most precious resource: their attention. And an Instrument that respects the sovereign's attention is an Instrument that will be trusted and wielded with joy.
+
+**Mathematical Justification:**
+Let a task be a path from an initial state `S_0` to a goal state `S_g`. The cost of the task is the number of steps (clicks, decisions) in the path. The goal of ergonomic design is to find the shortest path in the UI state space. This is a classic shortest path problem on a graph.
+
+**Proof of Efficiency:** Fitts's Law states that the time to acquire a target is a function of the distance to and size of the target. By placing primary actions directly on the main interface (reducing distance) and giving them high visual weight (increasing size), we provably reduce the time required for the user to complete their task. Ergonomic design is thus the application of optimization principles to the user's interaction path. `Q.E.D.`

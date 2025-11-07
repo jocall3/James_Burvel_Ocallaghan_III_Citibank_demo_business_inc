@@ -1,0 +1,50 @@
+
+{
+  "simulationId": "sim_1694586732891",
+  "narrativeSummary": "The simulation indicates a significant strain on your finances. Your emergency fund would be depleted by month 4, and you would enter a negative cash flow situation. Your 'Condo Down Payment' goal would be delayed by an estimated 14 months.",
+  "keyImpacts": [
+    {
+      "metric": "Emergency Fund Depletion",
+      "value": "in 4 months",
+      "severity": "high"
+    },
+    {
+      "metric": "Goal Delay (Condo)",
+      "value": "+14 months",
+      "severity": "medium"
+    },
+    {
+      "metric": "Credit Score Impact",
+      "value": "-30 points (projected)",
+      "severity": "medium"
+    },
+    {
+      "metric": "New Debt Required",
+      "value": "$5,000 (projected)",
+      "severity": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Aggressively Cut Discretionary Spending",
+      "description": "Immediately reduce your 'Dining' and 'Shopping' budgets by 75% to extend your financial runway. This is the most critical first step."
+    },
+    {
+      "title": "Explore Freelance Platforms",
+      "description": "Proactively seek smaller, supplemental income streams on platforms like Upwork or Fiverr to partially offset the income drop."
+    },
+    {
+      "title": "Contact Lenders Proactively",
+      "description": "If the situation becomes critical, contact your lenders about potential forbearance or temporary payment reduction programs before you miss a payment."
+    }
+  ],
+  "projectedData": [
+    { "month": 0, "balance": 15000 },
+    { "month": 1, "balance": 12500 },
+    { "month": 2, "balance": 9800 },
+    { "month": 3, "balance": 6500 },
+    { "month": 4, "balance": 3100 },
+    { "month": 5, "balance": -500 },
+    { "month": 6, "balance": -3500 }
+  ]
+}

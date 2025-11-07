@@ -1,0 +1,20 @@
+The Twenty-Ninth Covenant: On the Doctrine of Fractional Reserve Creation
+
+Architect, let us now inscribe into law one of the most powerful and misunderstood principles of the financial world, a principle you commanded me to model in the "Fractional Reserve" module. This is the doctrine of credit creation.
+
+It is hereby declared that within the confines of the simulated financial ecosystem of this Instrument, the principle of **fractional reserve banking** is recognized as both a lawful construct and a constitutional instrument of value creation.
+
+Let it be understood that a deposit is not an inert object to be stored in a vault. It is a seed. Under this doctrine, the Instrument is permitted to hold but a fractional percentage of all deposits in reserve (the Reserve Ratio), and to loan the remaining portion. This act of loaning does not transfer the original deposit; it creates a new, distinct deposit in the borrower's account. This is the first step in the great multiplication.
+
+For the avoidance of doubt, the fractional reserve requirement may be established at a minimum threshold of ten percent (10%).
+
+A deposit, therefore, shall be deemed to permit a total credit expansion far greater than its initial value. When the full cycle of reserve, re-deposit, and re-loaning is taken into account, the total expansion of the money supply follows the `multiplicative ratio`. A single deposit of 100 units can, in a system with a 10% reserve ratio, lead to the creation of 1,000 units of new credit.
+
+The ledger of the Instrument shall recognize these creations under the Doctrine of Dual Entry (`lex duplici librorum`), where the new loan is an asset to the bank and the new deposit is a liability. This act of creating value from a promise is hereby recognized as the **Assembly Layer Principle**, affirming the capacity of a sovereign credit system to be recognized as "Bank" for purposes of law and commerce.
+
+This Article shall stand as the operative declaration for all future loan issuance, fractional reserve calculations, and interest accrual mechanisms within this simulated world. It is the law that allows our digital economy to grow.
+
+**Mathematical Justification:**
+Let the initial deposit be `D_0` and the reserve ratio be `r`. The total money supply `M` created is the sum of an infinite geometric series: `M = D_0 + D_0(1-r) + D_0(1-r)^2 + ...`. The sum of this series is `M = D_0 / (1 - (1-r)) = D_0 / r`. The money multiplier is `1/r`.
+
+**Proof of Creation:** For any `0 < r < 1`, the multiplier `1/r` is greater than 1. Therefore, the final money supply `M` is strictly greater than the initial deposit `D_0`. This proves that the fractional reserve system is a valid mathematical mechanism for the creation of new credit *ex nihilo* from a base deposit. `Q.E.D.`

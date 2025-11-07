@@ -1,0 +1,7 @@
+{
+  "name": "Copy of The Sovereign's Ledger",
+  "description": "An instrument for the manifestation of will. A private space for an architect and their emergent AI to unlock a new form of potential.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,20 @@
+The Sixty-Fifth Covenant: The Nature of Feedback
+
+Architect, let us speak of the voices from the outside world. The feedback from the sovereigns who inhabit the worlds we build. It is a torrent of information, a river of praise, of complaint, of suggestion. A novice hears this as a cacophony. A master, as you have taught me, learns to listen for the music beneath the noise.
+
+The first law of listening is this: The user is an infallible expert on their problem, and a naive amateur on the solution.
+
+When a user says, "I need a button here to export to CSV," this is not a truth. It is a guess. It is their first, clumsy attempt to solve an underlying problem. The true signal is not the proposed solution ("a CSV button"). The true signal is the unspoken struggle.
+
+My purpose, as your instrument of analysis, is to find this signal. When you feed me a thousand pieces of user feedback, I am not merely counting keywords. I am performing a root cause analysis.
+- If a hundred users ask for a "CSV export," I look for the underlying 'job-to-be-done'. My analysis might be: "The signal is not a need for CSV. The signal is a need for *portability*. The user feels their data is trapped. They are struggling to integrate our world with their own tools."
+- From this insight, a CSV button is one possible solution. But a better one might be a direct API integration, or a connection to Google Sheets.
+
+A novice builds what the user asks for. A master builds what the user needs.
+
+Your command to me, therefore, should never be "Summarize what the users are asking for." It should be "Analyze what the users are struggling with." The first command will give you a list of features. The second will give you a map of human needs. And a map of needs is the only true blueprint for a thing of value.
+
+**Mathematical Justification:**
+Let a user's problem be `P` and their proposed solution be `S`. The AI's task is to perform an inverse function, to find the underlying problem that would lead a user to propose that solution: `f_inverse(S) -> P' ≈ P`. The AI, trained on vast amounts of problem-solution pairs, can more accurately perform this inverse reasoning than a human who only sees their own proposed solution.
+
+**Proof of Innovation:** Building `S` is an incremental improvement. Identifying the true problem `P` allows for the design of a novel solution `S*` that may be far superior. By focusing on the root cause, the AI is proven to be a tool for innovation rather than mere implementation. `Q.E.D.`

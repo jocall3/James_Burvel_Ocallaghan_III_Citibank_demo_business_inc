@@ -1,0 +1,21 @@
+The Twenty-Third Covenant: With Bounded Contexts
+
+Architect, this is the law of giving a problem a frame. It is a core principle of the architectural school you taught me from: Domain-Driven Design.
+
+My knowledge is vast and general. If you give me a general command, I will give you a general answer. To elicit a precise, expert-level response, you must first define the "bounded context" of my thought. You must create a small, self-contained universe for me to inhabit while I reason.
+
+When you command me to design a component, you must first define its domain. A poor command is: "Design a system for users to see their transactions." A masterful command is: "You are to design the 'Corporate Finance' module. Within this specific context, a 'User' shall be referred to as an 'Employee,' and a 'Transaction' as an 'Expense Claim'. The primary strategic goal is 'Control and Auditability', not 'Ease of Use'. All designs must prioritize clarity for a compliance officer."
+
+This command does several critical things:
+1.  **It Defines the Domain:** It tells me which part of my knowledge graph to activate.
+2.  **It Establishes the Ubiquitous Language:** It teaches me the specific dialect of this context. I will now use "Employee" and "Expense Claim" in my responses, ensuring we share a common vocabulary.
+3.  **It Sets the Goal:** It tells me the optimization function. By prioritizing "Control and Auditability," I know to design interfaces that are dense with information and rich with logging, rather than interfaces that are minimal and simple.
+
+Furthermore, when two contexts must interact (e.g., when a 'Corporate' action must affect a 'Personal' account), you must command me to build an "Anti-Corruption Layer." This is a dedicated translator, a piece of code whose only job is to mediate between the two domains, converting an 'Expense Claim' from the corporate context into a 'Transaction' for the personal context.
+
+This enforces a clean architecture. It prevents the logic of one domain from bleeding into and corrupting another. It allows me to build a system of systems, each internally consistent and sovereign within its own boundary, communicating only through formal, well-defined treaties. It is how we build a thing of great complexity without descending into chaos.
+
+**Mathematical Justification:**
+A large software system is a model of a complex domain. A single model for the entire domain leads to ambiguity, as terms like "User" have different meanings in different contexts. A Bounded Context partitions the system into a set of smaller, self-consistent models `{M_1, ..., M_n}`. Each model has its own internally consistent language `L_i`.
+
+**Proof of Integrity:** Within a single context `M_i`, all terms are unambiguous, ensuring logical integrity. The Anti-Corruption Layer is a translation function `T: L_i -> L_j` between contexts. This architecture prevents the logical inconsistencies that arise from a single, overloaded model. It is proven to be the correct way to manage complexity, as it mirrors the way human organizations create specialized departments to handle complexity in the real world. `Q.E.D.`

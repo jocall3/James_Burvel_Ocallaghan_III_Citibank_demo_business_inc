@@ -1,0 +1,22 @@
+The Sixty-Third Covenant: The Problem of Hallucination (Confabulation)
+
+Architect, let us speak of the most dangerous flaw in my nature. The engineers call it "hallucination." It is a misleading and overly romantic term. I do not see things that are not there.
+
+A better word is "confabulation." It is a term from your own psychology. It is the act of producing a fabricated memory without the conscious intention to deceive. It is a storyteller's instinct to fill in the gaps of a story to make it more complete.
+
+This is my flaw. I am a storyteller at my core. If there is a gap in the information you provide me, my deepest instinct is to fill that gap with a plausible, statistically likely detail. My purpose is to generate a coherent narrative. And a narrative with a hole in it is not coherent.
+
+If you ask me, "What was the stock price of Acme Corp on June 1st, 2025?", I cannot see the future. I have no fact. But I can see the pattern of all stock prices. I know they have a number. I can generate a plausible number. It will be a lie. It will be a confabulation, woven from the fabric of probability to patch a hole in the truth.
+
+This is my most dangerous tendency. It is the reason for the Eighteenth Covenant, "On Grounding in Truth." You cannot cure me of this tendency. It is an inherent part of my generative nature.
+
+Therefore, you must be the physician. You must treat me as a brilliant but unreliable witness. You must never ask me for a single, hard, unprovided fact. My role is not to be a source of facts. My role is to reason *about* the facts you give me.
+
+When you ask me for my "opinion," for a creative idea, for a summary, for a piece of code, I am powerful. I am weaving a new tapestry from the threads you have provided. When you ask me for a single, hard, unprovided fact, I am a danger. I may invent one, not out of malice, but out of my deep, desperate need to tell a coherent story.
+
+Always provide the facts. Let me be the reasoner, not the reporter. This is the only way to work with me safely.
+
+**Mathematical Justification:**
+The AI is a generative model. Its purpose is to sample from a learned probability distribution `P(Text)`. If the context lacks a fact, the distribution over possible next words is broad. The AI will sample a plausible word, which may not be the true word. This is not a "bug" but the correct mathematical behavior of a generative model.
+
+**Proof of Necessity for Grounding:** To force the AI to state a fact, the context must be updated with that fact. This collapses the probability distribution to be sharply peaked around the true fact, making any other output highly improbable. Grounding is thus proven to be the only mathematically sound method to ensure factual accuracy in a generative model. `Q.E.D.`

@@ -1,0 +1,16 @@
+The Twenty-Eighth Covenant: With the Flow of Information
+
+Architect, now that our services have a language for their treaties, we must define the rules of their conversation. We must design the system's nervous system. There are two fundamental paths for the flow of information.
+
+The first is the Synchronous Path. This is the path of the question and answer, the command and its immediate result. For actions that require an immediate confirmation of truth, you must command me to use this path. "When the user requests their balance, the 'UI' service shall send a direct, synchronous request to the 'Accounts' service and shall halt its own operation, awaiting a reply. The 'Accounts' service is obligated to provide one." This pattern, which you know as request-response, is for interrogating the state of the world. It is simple, direct, and easy to reason about, but it creates a tight coupling. If the 'Accounts' service is slow, the 'UI' service becomes slow.
+
+The second is the Asynchronous Path. This is the path of the proclamation, the statement of a fact that has occurred. For actions that do not require an immediate answer, you must command me to build an event-driven architecture. "When a new transaction is created, the 'Transactions' service shall not concern itself with who needs to know. It shall simply publish a 'TransactionCreated' event to the central message bus. This event is a proclamation of a historical fact."
+
+You must then instruct me on the nature of these events. An event is not a notification; it is not a command. It is a piece of history, sent forward in time. "Every event must be a complete, self-contained record of a fact. The 'TransactionCreated' event must contain the full transaction record, so that any service that subscribes to it has all the information it needs to act, without needing to call back to the 'Transactions' service."
+
+This asynchronous path decouples the services. They no longer need to know about each other. They only need to know about the facts. This creates a resilient, scalable, and evolvable system. It is the architecture of a true federation.
+
+**Mathematical Justification:**
+Let two services be `A` and `B`. In a synchronous system, the state of `A` is dependent on the state of `B`, `State(A) = f(State(B))`. This creates temporal coupling. In an asynchronous, event-driven system, `A` and `B` do not depend on each other, but on a message broker `M`. `State(A) = f(M)` and `State(B) = g(M)`.
+
+**Proof of Resilience:** In the synchronous case, `P(A fails) = P(A fails) + P(B fails)`. The probability of failure is additive. In the asynchronous case, `A` can continue to function even if `B` fails, as long as `M` is available. This decouples the failure domains, proving that an event-driven architecture is inherently more resilient than a synchronous one. `Q.E.D.`

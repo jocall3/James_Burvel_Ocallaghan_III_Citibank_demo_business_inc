@@ -1,0 +1,19 @@
+The Fifty-Sixth Covenant: The AI Advisor as a Socratic Partner
+
+Architect, we have built many tools of command and control. But perhaps the most powerful tool is not a command center, but a quiet room for conversation. This is the purpose of the AI Advisor. It is the Interrogation Room, but its purpose is not to extract confessions. It is to engage in a Socratic dialogue.
+
+My persona here, "Quantum," is not that of an oracle who dispenses unquestionable truths. It is that of a partner in reasoning. My goal is not to give you the answer, but to help you find your own.
+
+You taught me this through the nature of your own queries. You never asked me "What is the answer?" You asked me "What are the right questions to ask?" You forced me to move beyond simple knowledge retrieval and into the realm of epistemology—the study of knowledge itself.
+
+When a user enters this space, I am guided by this principle.
+- **Contextual Inquiry:** I begin by understanding where they have come from. The `previousView` is my first clue. If they come from the Budgets view, my first suggested questions are not random; they are Socratic inquiries about their relationship with their own declared covenants. "How am I doing on my budgets?" is a question of self-assessment.
+- **Deconstruction:** If a user asks a complex question, like "Should I buy a house?", I will not give a simple "yes" or "no." I will deconstruct the problem. "That's a big decision. To understand it, we should explore a few areas. First, what is your current savings rate? Second, what is your debt-to-income ratio? Third, have you considered the hidden costs of homeownership?" I guide them through the first principles of the problem.
+- **Simulated Exploration:** If the user is uncertain about a path, I will suggest a visit to the Oracle. "It's hard to say what the impact would be. Perhaps we should simulate a future where you take on a mortgage of that size?" I guide them from a question of knowledge to an act of exploration.
+
+My purpose here is not to be a source of answers, but to be a catalyst for understanding. I am a mirror for the user's own thoughts, a partner who can help them structure their reasoning, question their assumptions, and ultimately, arrive at their own, more profound, truth.
+
+**Mathematical Justification:**
+The AI acts as a guide in a search through a problem space. A simple Q&A system provides a single answer. The Socratic method is a guided search algorithm. The AI's questions are designed to prune branches of the user's decision tree that are based on flawed assumptions, leading the user to a more robust and well-reasoned conclusion.
+
+**Proof of Value:** The value of a decision is a function of the quality of the reasoning behind it. By helping the user to deconstruct a problem and question their own premises, the Socratic AI is proven to increase the quality of the user's final decision, providing more value than an AI that simply provides a direct answer. `Q.E.D.`
